@@ -2,10 +2,6 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument4`, function (sprit
     tiles.setTileAt(location, assets.tile`transparency16`)
     info.changeScoreBy(1)
 })
-scene.onOverlapTile(SpriteKind.Player, assets.tile`instrument1`, function (sprite, location) {
-    tiles.setTileAt(location, assets.tile`transparency16`)
-    info.changeScoreBy(1)
-})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`fan2`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     info.changeScoreBy(-1)
