@@ -21,7 +21,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`fan3`, function (sprite, loca
 scene.onOverlapTile(SpriteKind.Player, assets.tile`exit`, function (sprite, location) {
     game.over(true)
 })
-scene.setBackgroundColor(13)
+scene.setBackgroundColor(5)
 tiles.setTilemap(tilemap`level1`)
 let mySprite = sprites.create(img`
     . . . . . . f f f f . . . . . . 
@@ -44,4 +44,4 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 tiles.placeOnRandomTile(mySprite, assets.tile`stage`)
 scene.cameraFollowSprite(mySprite)
-info.startCountdown(10)
+info.startCountdown(12)
